@@ -1,0 +1,56 @@
+/* pages/hot/hot.wxss */
+.re {
+  border-bottom: 1rpx solid #f4f4f4;
+  font-size: 28rpx;
+  padding: 20rpx;
+  color: #999;
+  border-top: 1rpx solid #f4f4f4;
+}
+.ren {
+
+  font-size: 28rpx;
+  padding: 20rpx;
+  color: #999;
+  border-top: 1rpx solid #f4f4f4;
+}
+.ping {
+  display: flex;
+  width: 100%;
+  padding: 30rpx 0;
+  border-top:1rpx solid #f4f4f4; 
+}
+
+.ping_b {
+  flex: 0.25;
+  text-align: center;
+}
+
+.ping image {
+  width: 105rpx;
+  height: 105rpx;
+}
+.ping_aa{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  height: 72rpx;
+  font-size: 26rpx;
+}
+.ping_a {
+  flex: 0.72;
+  font-size: 28rpx;
+}
+.ping_cc{
+   display: inline-block;
+   font-size: 20rpx;
+   background: #ff5f00;
+   color: #fff;
+   padding: 0rpx 6rpx ;
+   margin: 10rpx 0;
+}
+.ping_dd{
+   color: #ff5f00
+}
+

@@ -1,0 +1,52 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="category">
+  <view class="category_item" wx:for="{{iconArray}}">
+    <view class="category_item_wrap" hover-class="category_item_wrap_hover">
+      <view class="icon_wrap">
+        <image src="{{item.iconUrl}}" class="index_icon"></image>
+      </view>
+      <view class="category_item_text">
+        <text>{{item.iconText}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="toutiaocontent">
+  
+    <image class="toutiao_img" src="../../assets/img/logo.png" mode="scaleToFill"></image>
+  
+ 
+  <view class="toutiao" >
+  <block wx:for="{{toutiaoArr}}">
+    <view class="toutiao_item"><text>111{{item.title}}\n</text></view>
+    
+    </block>
+  </view>
+
+</view>
+<view class="goodlist">
+  <view class="gooditem">智能猫眼
+    <image src="../../assets/img/good1.png" mode="scaleToFill"></image>
+  </view>
+  <view class="gooditem">智能猫眼
+    <image src="../../assets/img/good1.png" mode="scaleToFill"></image>
+  </view>
+  <view class="gooditem">智能猫眼
+    <image src="../../assets/img/good1.png" mode="scaleToFill"></image>
+  </view>
+  <view class="gooditem">智能猫眼
+    <image src="../../assets/img/good1.png" mode="scaleToFill"></image>
+  </view>
+</view>
+
+<view class="lll">
+       <image src="../../images/kf.png"> <contact-button></contact-button>  <contact-button></contact-button></image>
+</view>

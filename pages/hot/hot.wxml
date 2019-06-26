@@ -1,0 +1,14 @@
+<!--pages/index/detail.wxml-->
+
+<view class="ren">热门单品</view>
+<view class="ping" wx:for="{{hot}}" bindtap="ping" data-pro_id="{{item.id}}">
+  <view class="ping_b">
+  <image src="{{'../../assets/img/'+item.product_pic_info.pic_url}}"></image>
+  </view>
+  <view class="ping_a">
+    <view class="ping_aa">{{item.product_name}}</view>
+    <view class="ping_cc" wx:if="{{item.bar_code != NULL}}">{{item.bar_code}}</view>
+    <view class="ping_dd">￥{{item.price}}</view>
+  </view>
+</view>
+

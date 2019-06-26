@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/index",
+    "pages/hot/hot",
+    "pages/product/product",
+    
+    "pages/common/common"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6600",
+    "navigationBarTitleText": "新帝国商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#69C3AA",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "assets/img/shouye1.png",
+        "selectedIconPath": "assets/img/shouye.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "活动",
+        "iconPath": "assets/img/huodong1.png",
+        "selectedIconPath": "assets/img/huodong.png"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "text": "购物车",
+        "iconPath": "assets/img/car1.png",
+        "selectedIconPath": "assets/img/car.png"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "text": "我的",
+        "iconPath": "assets/img/wode1.png",
+        "selectedIconPath": "assets/img/wode.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

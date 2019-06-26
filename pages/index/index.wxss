@@ -1,0 +1,44 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+/*在线客服*/
+.lll{
+width:71rpx;
+height:69rpx;
+position:fixed;
+right:0px;
+bottom:140px;
+float: right
+}
+.lll image{
+width:100%;
+height:100%;
+}
+contact-button{
+position: relative;
+top:-35px;
+left:9px;
+opacity: 0;
+}
+.bottom{
+  margin-bottom: 10px;
+}
